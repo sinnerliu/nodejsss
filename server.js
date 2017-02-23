@@ -127,9 +127,7 @@ app.get('/:appid',function(req,res){
    }); 
 })
 
-app.get('/i', function (req, res) {
-    res.send('http://51.ruyo.net');
-})
+)
 
 app.listen(3999, function () {
   console.log('Example app listening on port 3999')
